@@ -11,7 +11,8 @@ function Login() {
   const [password, setPassword] = useState("Azure@12345");
   const navigate = useNavigate()
 
-  const handleLogin = () => {
+  const handleLogin = (e) => {
+    e.preventDefault();
     console.log("login")
     signInWithEmailAndPassword(auth, userName, password)
   .then((userCredential) => {
