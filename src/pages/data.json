@@ -1,0 +1,21 @@
+[
+    {
+      "date": "2/12/2023",
+      "userCode": "001",
+      "activityType": "Week Off",
+      "attendance": "pr",
+      "inTime": "9:30",
+      "outTime": "18:00",
+      "remark": "good"
+    },
+    
+      {
+        "date": "2/12/2023",
+        "userCode": "009",
+        "activityType": "Market Work",
+        "attendance": "pr",
+        "inTime": "9:30",
+        "outTime": "18:00",
+        "remark": "bad"
+      }
+  ]

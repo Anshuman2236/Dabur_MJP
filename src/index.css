@@ -1,0 +1,91 @@
+/* @tailwind base
+@tailwind compopnents
+@tailwind utilities */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  background-color: #009bc7;
+  border-color: #0184a9;
+  padding: 0px 0px 0px;
+  
+}
+.navbar-brand{
+  color: white;
+  font-family: Algerian;
+  font-size: 16px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+.card{
+  background-color: #009bc9;
+}
+.card-body{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 16px;
+}
+.navbar-brand img{
+  width: 47.91px;
+  height: 47px;
+}
+.BadaMjp{
+  font-family: Algerian;
+  font-size: 22px;
+  color: #052e5c;
+  margin: 20px 0px 10px;
+  padding: 0px 0px 0px 8px;
+  font-weight: bold;
+
+}
+.col-md-6{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.label-button-container{
+  background-color: lightblue;
+  display: flex ;
+  justify-content: space-between;
+  padding: 5px 5px;
+  align-items: center;
+  width: 100%;
+}
+.label-button-container button{
+  /* margin-left: 100px; */
+  background-color: red;
+}
+/* .label-button-container label{
+  margin-right: 100px;
+} */
+.MuiCard-root{
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+
+@media (min-width: 576px) {  }
+@media (min-width: 768px) {  }
+@media (min-width: 992px) {  }
+@media (min-width: 1200px) {  }
+@media (min-width: 1400px) {  }
